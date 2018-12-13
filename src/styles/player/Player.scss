@@ -1,0 +1,50 @@
+.player-container {
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #49a4c3c4;
+    display: flex;
+
+    .player-track-img {
+        width: 85px;
+        height: 85px;  
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .player-control-container{
+        width: 100%;
+
+        .player-control-duration {
+            div div {
+                background-color: #f5a623;
+            }
+        }
+        .player-control {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            align-items: center;
+            padding-top: 5px;
+
+            .player-control-name {
+
+                div span, p {
+                    color: #fff;
+                }
+            }
+            .player-control-play {
+                span span span {
+                    color: #fff;
+                    font-size: 32px;    
+                }
+            }
+        }
+    }
+
+
+}

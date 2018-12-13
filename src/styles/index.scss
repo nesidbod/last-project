@@ -1,0 +1,49 @@
+body {
+    font-family: Roboto !important;
+  }
+
+.content-stepper-between {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.main-body{
+    height: 104vh;
+    // overflow-y: auto;
+}
+
+.content-stepper-between.login {
+    background: #6c2e89 url('img/Other/background-marshmallow.png') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.account-tabs {
+    background-color: #fff;
+  
+    .account-tab[aria-selected="true"] {
+        color: #8750a0 !important;
+    }
+  
+    .indicator-color {
+        background-color: #8750a0;
+    }
+}
+
+.stoper-block {
+    width: 100%;
+    height: 155px;
+}
+
+.googlemap-popup-title {
+    span {
+        color: #8750a0;
+        font-weight: 500;
+    }
+}
+
+.black {
+    color: black !important;
+}

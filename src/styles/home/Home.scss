@@ -1,0 +1,137 @@
+.content-stepper-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    background-size: cover;
+    background-color: #fff;
+  
+    .top-appBar {
+      background-color: #6c2e89;
+      box-shadow: none;
+    }
+  
+    .content-scroll {
+      max-height: 75%;
+      width: 100%;
+    }
+  
+  }
+  
+.main-page-container {
+position: fixed;
+width: 100%;
+height: 100%;
+}
+
+.container-scroll {
+overflow-y: scroll;
+overflow-x: hidden;
+height: 100%;
+position: fixed;
+width: 100%;
+}
+
+.react-swipeable-view-container {
+width: 100% !important;
+}
+
+.top-appBar {
+  background-color: #642b82 !important;
+  box-shadow: none !important;
+
+
+  .top-appBar-title {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .top-appBar-search {
+    position: absolute;
+    top: 0;
+    right: 45px;
+  }
+
+  .top-appBar-account {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .user-profile-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.burger-menu-paper {
+  top: 0 !important;
+  left: 0 !important;
+  border-radius: 0px;
+  height: 100%;
+  max-height: none;
+  width: 320px;
+  background-color: #8750a0f2;
+
+  ul {
+    padding: 0;
+  }
+
+  .burger-menu-user {
+    background-color: #2dabd0;
+    height: 180px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px;
+
+    .user-profile-img {
+      width: 80px;
+      height: 80px;
+      margin-left: 24px;
+    }
+
+    .playlist-content-title {
+      flex: none;
+
+      span {
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      p {
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+
+  }
+
+  .burger-menu-item {
+    color: #fff;
+    margin-top: 5px;
+    
+    .material-icons {
+      margin-right: 15px;
+    }
+  }
+
+  .burger-menu-item.active:after {
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 30px;
+    width: 7px;
+    background-color: #2dabd0;
+  }
+}
+
+.top-appBar.main {
+  background-color: #8750a0 !important;
+}

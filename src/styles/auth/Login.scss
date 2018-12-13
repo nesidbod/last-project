@@ -1,0 +1,192 @@
+.main-page-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: start;
+    background-color: white;
+    margin: 30px;
+    overflow-y: scroll;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+
+    }
+
+    .flex-block-center {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .img-description {
+      margin-top: -28px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+      width: 100%;
+    }
+
+    .main-page-divided {
+      width: 100%;
+      height: 1px;
+      background-color: #9b9b9b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        background-color: white;
+        color: #9b9b9b;
+        font-size: 13px;
+        padding: 0 5px;
+
+      }
+    }
+
+    .main-page-content {
+      margin: 10px 25px;
+      min-width: 210px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: start;
+
+      .main-page-content-text {
+        text-align: left;
+        font-weight: 500;
+        color: #4a4a4a;
+        font-size: 12px;
+        align-items: center;
+        display: flex;
+        padding: 3px 0;
+        margin-top: 5px;
+
+        span {
+          margin-right: 10px;
+        }
+        .material-icons {
+          color: #3cadd4;
+        }
+      }
+
+      .main-page-content-text.location {
+
+        span {
+          font-size: 18px;
+        }
+      }
+      .main-page-content-text.calendar {
+
+        span {
+          font-size: 18px;
+        }
+      }
+
+      .main-page-content-text.description {
+        padding-top: 7px;
+
+      }
+
+      .main-page-content-text.title {
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .main-page-content-text.facebook,
+      .main-page-content-text.email,
+      .main-page-content-text.account {
+        color: black;
+        margin-top: 5px;
+
+        img {
+          width: auto;
+          margin-right: 10px;
+        }
+      }
+
+      .buttom-sing-spotify {
+        background-color: #1bb954;
+        margin: 5px 0;
+        font-size: 13px;
+        width: 210px;
+        height: 20px;
+        border-radius: 0px;
+
+        .spotify-img {
+          width: auto;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .login-input-container {
+    position: relative;
+    margin-bottom: 15px;
+
+    .login-email {
+      width: 100%;
+      border: 1px solid;
+      border-radius: 5px;
+      padding: 10px;
+      height: 40px;
+      padding-right: 20px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .login-email::before,
+    .login-email::after {
+      display: none;
+    }
+
+    .login-eye-icon {
+      position: absolute;
+      top: 9px;
+      right: 10px;
+      color: #9e9e9e;
+    }
+
+  }
+
+  .login-header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #f7f7f7;
+
+    .spotify-img {
+      width: auto;
+    }
+
+    .login-header-icon {
+      color: #3cadd4;
+    }
+  }
+
+.text-decoration-none {
+  text-decoration:none
+}
+.Login {
+  max-width: 340px;
+  margin: auto;
+}
+
+.login-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+
+  a {
+    font-size: 10px;
+    color: gray;
+    text-decoration: none;
+  }
+}

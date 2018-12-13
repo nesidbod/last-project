@@ -1,0 +1,134 @@
+.main-bottom-navigation {
+  width: 100%;
+  background-color: #fff0 !important;
+  justify-content: space-around;
+
+  .bottom-icon-menu-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-around !important;
+
+    .bottom-icon-menu {
+      color: #dbcae2;
+      min-width: 62px;
+      max-width: 83px;
+      padding: 0;
+
+      span span.material-icons {
+        font-size: 20px;
+      }
+
+      .bottom-icon-menu-label {
+        font-size: 10px;
+        font-weight: 500;
+      }
+    }
+
+    .bottom-icon-menu.selected {
+      color: #fff !important;
+    }
+  }
+
+  .bottom-icon-menu-container[value='2'] {
+    padding-left: 40px;
+  }
+
+  .round-buttom-container {
+    margin-top: -34px;
+    position: fixed;
+
+    .round-buttom {
+      border-radius: 50%;
+      height: auto;
+      padding: 7px;
+
+      .round-buttom-yellow {
+        background-color: #fbb018;
+      }
+    }
+  }
+}
+
+.main-bottom-container {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-bottom-navigation:before {
+  content: '';
+  position: absolute;
+  bottom: 36%;
+  width: 66px;
+  height: 120%;
+  border-radius: 100%;
+  box-shadow: 0px 42px 0px 1100px #8750a0;
+}
+
+.content-stepper-between {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  background-size: cover;
+  background-color: #fff;
+
+  .top-appBar {
+    background-color: #6c2e89;
+    box-shadow: none;
+  }
+
+  .content-scroll {
+    max-height: 75%;
+    width: 100%;
+  }
+
+}
+
+.main-page-container {
+position: fixed;
+width: 100%;
+height: 100%;
+}
+
+.container-scroll {
+}
+
+.react-swipeable-view-container {
+width: 100% !important;
+}
+
+.top-appBar {
+background-color: #642b82 !important;
+box-shadow: none !important;
+
+
+.top-appBar-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.top-appBar-search {
+  position: absolute;
+  top: 0;
+  right: 45px;
+}
+
+.top-appBar-account {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  .user-profile-img {
+    width: 25px;
+    height: 25px;
+  }
+}
+}
+
+.top-appBar.main {
+background-color: #8750a0 !important;
+}
